@@ -1,0 +1,125 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".Maquinaria" >
+
+    <TextView
+        android:id="@+id/txtTituloMaq"
+        android:layout_width= "fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFE000"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="@string/maquinaria" />
+        
+	<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFE000"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/gal_prep" />
+    
+	<TextView
+        android:id="@+id/txtMaquinariaGalPrep"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFE000"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="16sp" />
+	
+	<View
+        android:layout_height="2dip"
+        android:background="#FFE000"
+        android:layout_margin="4dp" />
+	
+    <TextView
+        android:layout_width= "fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFE000"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/arranque" />
+    
+    <TextView
+        android:id="@+id/txtMaquinariaArranque"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFE000"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FFE000"
+        android:layout_margin="4dp" />
+    
+	<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFE000"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/carga" />
+    
+	<TextView
+        android:id="@+id/txtMaquinariaCarga"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFE000"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="16sp" />
+	
+	<View
+        android:layout_height="2dip"
+        android:background="#FFE000"
+        android:layout_margin="4dp" />
+    
+	<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFE000"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/transporte" />
+    
+	<TextView
+        android:id="@+id/txtMaquinariaTransp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFE000"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="16sp" />
+	
+	<View
+        android:layout_height="2dip"
+        android:background="#FFE000"
+        android:layout_margin="4dp" />
+    
+	<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFE000"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/relleno" />
+    
+	<TextView
+        android:id="@+id/txtMaquinariaRelleno"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFE000"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="16sp" />
+
+</TableLayout>

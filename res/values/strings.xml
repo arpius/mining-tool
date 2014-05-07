@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mining Tool</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="obra_civil">Obra civil</string>
+    <string name="mineria">Minería</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="proximamente">Próximamente&#8230;</string>
+    <string name="error">Se ha roto algo&#8230;</string>
+    <string name="campos_vacios">Debes rellenar todos los campos&#8230;</string>
+    <string name="contenido_acerca_de">Esta aplicación pretende ser una herramienta para estudiantes y profesionales en ingeniería de minas y civil para facilitar la selección de equipos en proyectos.</string>
+    <string name="subterranea">Subterránea</string>
+    <string name="cielo_abierto">A cielo abierto</string>
+    <string name="mineral_ind">Mineral industrial</string>
+    <string name="metal">Metal</string>
+    <string name="arido">Árido</string>
+    <string name="esteril">Estéril</string>
+    <string name="mineral">Mineral</string>
+    <string name="rcs_mineral">R.C.S. mineral</string>
+    <string name="rcs_esteril">R.C.S. estéril</string>
+    <string name="vol_reservas">Años reservas</string>
+    <string name="ton_anno">Producción</string>
+    <string name="ratio">Ratio</string>
+    <string name="den_mineral">Densidad mineral</string>
+    <string name="den_esteril">Densidad estéril</string>
+    <string name="transp_esteril">Distancia transp. estéril</string>
+    <string name="transp_mineral">Distancia transp. mineral</string>
+    <string name="pendiente">Pendiente del terreno</string>
+    <string name="calcular">Calcular</string>
+    <string name="arranque">Arranque</string>
+    <string name="carga">Carga</string>
+    <string name="transporte">Transporte</string>
+    <string name="maquinaria">Maquinaria</string>
+    <string name="m1">Perforadora</string>
+    <string name="m2">Excavadora hidráulica</string>
+    <string name="m3">Rotopala</string>
+    <string name="m4">Excavadora de cables</string>
+    <string name="m5">Cargadora de ruedas</string>
+    <string name="cam_pilares">Cámaras y pilares</string>
+    <string name="cam_almacen">Cámaras almacén</string>
+    <string name="subniveles">Subniveles</string>
+    <string name="corte_relleno">Corte y relleno</string>
+    <string name="hund_subniveles">Hundimiento por subniveles</string>
+    <string name="hund_bloques">Hundimiento por bloques</string>
+    <string name="frente_largo">Frente largo</string>
+    <string name="gal_prep">Galería para preparación</string>
+    <string name="relleno">Relleno</string>
+    <string name="twitter">Twitter</string>
+    <string name="github">Github</string>
+    <string name="correo">Correo</string>
+
+</resources>

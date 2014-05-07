@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFE000" >
+	   
+    <ImageButton
+        android:id="@+id/imgTwitter"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/twitter"
+        android:contentDescription="@string/twitter"
+        android:onClick="mostrarTwitter" />
+      
+    <ImageButton
+        android:id="@+id/imgGithub"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/github"
+        android:contentDescription="@string/github"
+        android:onClick="mostrarGithub" />
+    
+    <ImageButton
+        android:id="@+id/imgCorreo"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/correo"
+        android:contentDescription="@string/correo"
+        android:onClick="enviarCorreo" />
+    
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+        
+	    <TextView
+	    	android:id="@+id/txtContenidoAcercaDe"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/contenido_acerca_de"
+	        android:layout_marginLeft="22dp"
+	        android:layout_marginRight="10dp"
+	        android:layout_marginBottom="6dp"
+	        android:textSize="28sp" />
+    
+	</ScrollView>
+	
+</RelativeLayout>
