@@ -40,13 +40,10 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true" >
         
-        <TextView
+        <utilidades.TextViewEx
 	    	android:id="@+id/txtContenidoAcercaDe"
 	    	android:layout_width="fill_parent"
         	android:layout_height="wrap_content"
-	        android:text="@string/contenido_acerca_de"
-	        android:layout_marginLeft="18dp"
-	        android:layout_marginRight="10dp"
 	        android:layout_marginBottom="6dp"
 	        android:textSize="28sp" />
         
