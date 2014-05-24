@@ -9,7 +9,8 @@
     <string name="proximamente">Próximamente&#8230;</string>
     <string name="error">Se ha roto algo&#8230;</string>
     <string name="campos_vacios">Debes rellenar todos los campos&#8230;</string>
-    <string name="contenido_acerca_de">Esta aplicación pretende ser una herramienta para estudiantes y profesionales en ingeniería de minas y civil para facilitar la selección de equipos en proyectos.</string>
+    <string name="autor">Desarrollado por Aritz Piñero Usategui</string>
+    <string name="contenido_acerca_de">Esta aplicación pretende ser una herramienta para estudiantes y profesionales en ingeniería de minas y civil para facilitar la selección de equipos en proyectos.\n</string>
     <string name="subterranea">Subterránea</string>
     <string name="cielo_abierto">A cielo abierto</string>
     <string name="mineral_ind">Mineral industrial</string>
