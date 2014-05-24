@@ -1,5 +1,6 @@
 package biz.arpius.acercade;
 
+import utilidades.TextViewEx;
 import biz.arpius.miningtool.R;
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -21,6 +22,9 @@ public class AcercaDe extends FragmentActivity {
 		setContentView(R.layout.activity_acerca_de);
 		
 		tituloAD = (TextView) findViewById(R.id.txtTituloAcercaDe);
+		
+		TextViewEx textoJustificado = (TextViewEx) findViewById(R.id.txtContenidoAcercaDe);
+		textoJustificado.setText(getString(R.string.contenido_acerca_de), true);
 		
 		Typeface fuente = Typeface.createFromAsset(getAssets(), "tiza.ttf"); //fuente personalizada
 		
