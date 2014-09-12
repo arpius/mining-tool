@@ -50,7 +50,7 @@ public class AcercaDe extends FragmentActivity {
 
 	public void enviarCorreo(View v) {
 		String[] to = {"miningtool.app@gmail.com"};
-        String[] cc = {"amurriokoa@gmail.com"};
+        String[] cc = {"usuario@dominio.es"};
         
         mandarEmail( 
         		to, 
