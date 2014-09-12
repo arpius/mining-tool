@@ -17,7 +17,8 @@
 	        android:orientation="horizontal" >
         
         	<TextView
-		        android:layout_width="200dp"
+        	    android:layout_weight="1"
+		        android:layout_width="0dip"
 		        android:layout_height="wrap_content"
 		        android:text="@string/rcs_mineral"
 		        android:textStyle="bold"
@@ -25,19 +26,22 @@
 	        
 	        <EditText
 	            android:id="@+id/edtRCS"
-	            android:layout_width="fill_parent"
+	            android:layout_weight="1"
+	            android:layout_width="0dip"
 	            android:layout_height="wrap_content"
+	            android:hint="@string/mag_rcs"
 	            android:inputType="numberDecimal" />
 	        
 	    </LinearLayout>
 	    
 	    <LinearLayout 
 	        android:layout_width="fill_parent"
-	        android:layout_height="42dp"
+	        android:layout_height="wrap_content"
 	        android:orientation="horizontal" >
 	        
 	        <TextView
-		        android:layout_width="200dp"
+	            android:layout_weight="1"
+		        android:layout_width="0dip"
 		        android:layout_height="wrap_content"
 		        android:text="@string/vol_reservas"
 		        android:textStyle="bold"
@@ -45,8 +49,10 @@
 	        
 	        <EditText
 	            android:id="@+id/edtVR"
-	            android:layout_width="fill_parent"
+	            android:layout_weight="1"
+	            android:layout_width="0dip"
 	            android:layout_height="wrap_content"
+	            android:hint="@string/mag_reservas"
 	            android:inputType="numberDecimal" />
 	        
 	    </LinearLayout>
@@ -57,7 +63,8 @@
 	        android:orientation="horizontal" >
 	        
 	        <TextView
-		        android:layout_width="200dp"
+	            android:layout_weight="1"
+		        android:layout_width="0dip"
 		        android:layout_height="wrap_content"
 		        android:text="@string/ton_anno"
 		        android:textStyle="bold"
@@ -65,8 +72,10 @@
 	        
 	        <EditText
 	            android:id="@+id/edtProd"
-	            android:layout_width="fill_parent"
+	            android:layout_weight="1"
+	            android:layout_width="0dip"
 	            android:layout_height="wrap_content"
+	            android:hint="@string/mag_produccion"
 	            android:inputType="numberDecimal" />
 	        
 	    </LinearLayout>
@@ -74,7 +83,7 @@
 	    <RadioGroup 
 	        android:id="@+id/rdg_metodo"
 	        android:layout_width="fill_parent"
-	        android:layout_height="wrap_content"
+	        android:layout_height="fill_parent"
 	        android:orientation="vertical" >
 	        
 	        <RadioButton
@@ -103,11 +112,12 @@
 	    
 		<LinearLayout
 	        android:layout_width="fill_parent"
-	        android:layout_height="42dp"
+	        android:layout_height="wrap_content"
 	        android:orientation="horizontal" >
 	        
 	        <TextView
-		        android:layout_width="200dp"
+	            android:layout_weight="1"
+		        android:layout_width="0dip"
 		        android:layout_height="wrap_content"
 		        android:text="@string/den_mineral"
 		        android:textStyle="bold"
@@ -115,19 +125,22 @@
 	        
 	        <EditText
 	            android:id="@+id/edtDenMin"
-	            android:layout_width="fill_parent"
+	            android:layout_weight="1"
+	            android:layout_width="0dip"
 	            android:layout_height="wrap_content"
+	            android:hint="@string/mag_densidad"
 	            android:inputType="numberDecimal" />
 	        
 	    </LinearLayout>
 	    
 		<LinearLayout 
 	        android:layout_width="fill_parent"
-	        android:layout_height="48dp"
+	        android:layout_height="wrap_content"
 	        android:orientation="horizontal" >
 	        
 	        <TextView
-		        android:layout_width="200dp"
+	            android:layout_weight="1"
+		        android:layout_width="0dip"
 		        android:layout_height="wrap_content"
 		        android:text="@string/transp_mineral"
 		        android:textStyle="bold"
@@ -135,8 +148,10 @@
 	        
 	        <EditText
 	            android:id="@+id/edtTranspMineral"
-	            android:layout_width="fill_parent"
+	            android:layout_weight="1"
+	            android:layout_width="0dip"
 	            android:layout_height="wrap_content"
+	            android:hint="@string/mag_distancia"
 	            android:inputType="numberDecimal" />
 	        
 	    </LinearLayout>

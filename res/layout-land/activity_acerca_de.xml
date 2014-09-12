@@ -9,29 +9,21 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity" >
-	
+    tools:context=".AcercaDe" >
+
     <fragment 
-        android:name="biz.arpius.miningtool.FragmentoPrincipal"
-        android:id="@+id/frgPrincipal"
-        android:layout_weight="0.5"
+        android:name="biz.arpius.acercade.FragmentoAcercaDe"
+        android:id="@+id/frgAcercaDe"
+        android:layout_weight="1"
         android:layout_width="fill_parent"
         android:layout_height="0dip" />
-	
-	<fragment 
-        android:name="biz.arpius.miningtool.FragmentoPrincipal2"
-        android:id="@+id/frgPrincipal2"
-        android:layout_weight="1"
+    
+    <fragment 
+        android:name="biz.arpius.acercade.FragmentoAcercaDe2"
+        android:id="@+id/frgAcercaDe2"
+        android:layout_weight="2"
         android:layout_width="fill_parent"
         android:layout_height="0dip"
         android:layout_marginTop="15dp" />
-	
-	<fragment
-	    android:name="biz.arpius.miningtool.FragmentoPrincipal3"
-	    android:id="@+id/frgPrincipal3"
-	    android:layout_weight="0.25"
-	    android:layout_width="fill_parent"
-	    android:layout_height="0dip"
-	    android:layout_marginTop="15dp" />
-
+   
 </LinearLayout>

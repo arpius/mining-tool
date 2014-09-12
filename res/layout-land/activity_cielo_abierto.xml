@@ -28,7 +28,7 @@
     </LinearLayout>
     
     <LinearLayout
-        android:layout_weight="3"
+        android:layout_weight="2"
         android:layout_width="fill_parent"
         android:layout_height="0dip"
         android:orientation="horizontal"
@@ -38,13 +38,15 @@
         <fragment 
 	        android:name="biz.arpius.mineria.FragmentoCieloAbierto2"
 	        android:id="@+id/frgCieloAbierto2"
-	        android:layout_width="152dp"
+	        android:layout_weight="1"
+	        android:layout_width="0dip"
 	        android:layout_height="fill_parent" />
 	    
 	    <fragment 
 	        android:name="biz.arpius.mineria.FragmentoCieloAbierto3"
 	        android:id="@+id/frgCieloAbierto3"
-	        android:layout_width="fill_parent"
+	        android:layout_weight="2"
+	        android:layout_width="0dip"
 	        android:layout_height="fill_parent" />
 	    
     </LinearLayout>

@@ -14,14 +14,14 @@
     <fragment 
         android:name="biz.arpius.acercade.FragmentoAcercaDe"
         android:id="@+id/frgAcercaDe"
-        android:layout_weight="0.5"
+        android:layout_weight="1"
         android:layout_width="fill_parent"
         android:layout_height="0dip" />
     
     <fragment 
         android:name="biz.arpius.acercade.FragmentoAcercaDe2"
         android:id="@+id/frgAcercaDe2"
-        android:layout_weight="0.5"
+        android:layout_weight="1"
         android:layout_width="fill_parent"
         android:layout_height="0dip"
         android:layout_marginTop="15dp" />
@@ -29,7 +29,7 @@
     <fragment 
         android:name="biz.arpius.acercade.FragmentoAcercaDe3"
         android:id="@+id/frgAcercaDe3"
-        android:layout_weight="1.25"
+        android:layout_weight="2"
         android:layout_width="fill_parent"
         android:layout_height="0dip" />
 

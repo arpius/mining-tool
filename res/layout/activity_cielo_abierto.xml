@@ -14,7 +14,7 @@
     <fragment 
         android:name="biz.arpius.mineria.FragmentoCieloAbierto"
         android:id="@+id/frgCieloAbierto"
-        android:layout_weight="1.25"
+        android:layout_weight="1"
         android:layout_width="fill_parent"
         android:layout_height="0dip" />
     
@@ -29,14 +29,14 @@
     <fragment 
         android:name="biz.arpius.mineria.FragmentoCieloAbierto3"
         android:id="@+id/frgCieloAbierto3"
-        android:layout_weight="5.25"
+        android:layout_weight="5"
         android:layout_width="fill_parent"
         android:layout_height="0dip" />
     
     <fragment 
         android:name="biz.arpius.mineria.FragmentoCieloAbierto4"
         android:id="@+id/frgCieloAbierto4"
-        android:layout_weight="0.75"
+        android:layout_weight="1"
         android:layout_width="fill_parent"
         android:layout_height="0dip" />
 

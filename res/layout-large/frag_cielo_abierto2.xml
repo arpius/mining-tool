@@ -22,15 +22,15 @@
     <Button 
 	    android:id="@+id/btnCalcular"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="fill_parent"
         android:background="@android:color/black"
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="3dp"
         android:layout_marginBottom="3dp"
         android:layout_marginLeft="3dp"
         android:layout_marginRight="3dp"
         android:text="@string/calcular"
         android:textColor="#FFE000"
-        android:textSize="24sp"
+        android:textSize="26sp"
         android:onClick="calcular" />
 	
 </RadioGroup>

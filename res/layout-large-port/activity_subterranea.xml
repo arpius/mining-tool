@@ -14,7 +14,7 @@
     <fragment 
         android:name="biz.arpius.mineria.FragmentoSubterranea"
         android:id="@+id/frgSubterranea"
-        android:layout_weight="1.50"
+        android:layout_weight="1"
         android:layout_width="fill_parent"
         android:layout_height="0dip" />
     
@@ -29,14 +29,14 @@
     <fragment 
         android:name="biz.arpius.mineria.FragmentoSubterranea3"
         android:id="@+id/frgSubterranea3"
-        android:layout_weight="6.5"
+        android:layout_weight="2"
         android:layout_width="fill_parent"
         android:layout_height="0dip" />
     
     <fragment 
         android:name="biz.arpius.mineria.FragmentoSubterranea4"
         android:id="@+id/frgSubterranea4"
-        android:layout_weight="0.75"
+        android:layout_weight="1"
         android:layout_width="fill_parent"
         android:layout_height="0dip" />
 

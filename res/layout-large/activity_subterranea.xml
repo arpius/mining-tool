@@ -38,13 +38,15 @@
 	    <fragment 
 	        android:name="biz.arpius.mineria.FragmentoSubterranea2"
 	        android:id="@+id/frgSubterranea2"
-	        android:layout_width="220dp"
+	        android:layout_weight="1"
+	        android:layout_width="0dip"
 	        android:layout_height="fill_parent" />
 	    
 	    <fragment 
 	        android:name="biz.arpius.mineria.FragmentoSubterranea3"
 	        android:id="@+id/frgSubterranea3"
-	        android:layout_width="fill_parent"
+	        android:layout_weight="2"
+	        android:layout_width="0dip"
 	        android:layout_height="fill_parent" />
     
     </LinearLayout>
