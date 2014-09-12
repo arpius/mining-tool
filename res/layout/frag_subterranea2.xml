@@ -4,7 +4,7 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:background="#FFE000"
-    android:orientation="horizontal" >
+    android:orientation="vertical" >
 
     <RadioButton
         android:text="@string/mineral_ind"
