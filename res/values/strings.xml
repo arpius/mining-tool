@@ -33,11 +33,28 @@
     <string name="carga">Carga</string>
     <string name="transporte">Transporte</string>
     <string name="maquinaria">Maquinaria</string>
+    
     <string name="m1">Perforadora</string>
     <string name="m2">Excavadora hidráulica</string>
-    <string name="m3">Rotopala</string>
+    <string name="m3">Rotopala o dragalina</string>
     <string name="m4">Excavadora de cables</string>
     <string name="m5">Cargadora de ruedas</string>
+    <string name="m6">Bulldozer (Ripper)</string>
+    
+    <string name="t1">Cinta transportadora</string>
+    <string name="t2">Volquete ( &lt; 80T )</string>
+    <string name="t3">Volquete ( > 80T )</string>
+    
+    <string name="ms1">Jumbo</string>
+    <string name="ms2">Rozadura puntual</string>
+    <string name="ms3">LHD</string>
+    <string name="ms4">Volquete</string>
+    <string name="ms5">Cinta transportadora</string>
+    <string name="ms6">Perforadora (Barrenos largos)</string>
+    <string name="ms7">Perforadora (Abanicos)</string>
+    <string name="ms8">Rozadora de tajo largo</string>
+    <string name="ms9">Rozadora continua</string>
+    
     <string name="cam_pilares">Cámaras y pilares</string>
     <string name="cam_almacen">Cámaras almacén</string>
     <string name="subniveles">Subniveles</string>
