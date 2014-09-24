@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mining Tool</string>
+    <string name="action_settings">Ezarpenak</string>
+    <string name="obra_civil">Obra zibila</string>
+    <string name="mineria">Meatzaritza</string>
+    <string name="acerca_de">Honi buruz</string>
+    <string name="proximamente">Laister&#8230;</string>
+    <string name="error">Zerbait apurtu egin da&#8230;</string>
+    <string name="campos_vacios">Hutsune guztiak bete behar dituzu&#8230;</string>
+    <string name="autor">Aritz Piñero Usategui-k garatua</string>
+    <string name="contenido_acerca_de">Aplikazio hau meatze ingeniaritza eta zibileko profesional eta ikasleentzako tresna izan nahi du, proiektuetan tresneriaren aukeraketa errazteko.\n</string>
+    <string name="subterranea">Lurpekoa</string>
+    <string name="cielo_abierto">Aire zabalean</string>
+    <string name="mineral_ind">Mineral industriala / Ikatza</string>
+    <string name="metal">Metala</string>
+    <string name="arido">Elkorra</string>
+    <string name="esteril">Antzua</string>
+    <string name="mineral">Minerala</string>
+    <string name="rcs_mineral">R.C.S. minerala</string>
+    <string name="rcs_esteril">R.C.S. antzua</string>
+    <string name="vol_reservas">Erreserbak</string>
+    <string name="ton_anno">Ekoizpena</string>
+    <string name="ratio">Ratioa</string>
+    <string name="den_mineral">Dentsitate minerala</string>
+    <string name="den_esteril">Dentsitate antzua</string>
+    <string name="transp_esteril">Garraio antzuko tartea</string>
+    <string name="transp_mineral">Garraio mineraleko tartea</string>
+    <string name="pendiente">Malda</string>
+    <string name="calcular">Kalkulatu</string>
+    <string name="arranque">Abioa</string>
+    <string name="carga">Zama</string>
+    <string name="transporte">Garraioa</string>
+    <string name="maquinaria">Makineria</string>
+    
+    <string name="m1">Zulatzailea</string>
+    <string name="m2">Hondeatzaile hidraulikoa</string>
+    <string name="m3">Rotopala edo dragalina</string>
+    <string name="m4">Kable hondeatzailea</string>
+    <string name="m5">Gurpil zamatzailea</string>
+    <string name="m6">Bulldozer (Ripper)</string>
+    
+    <string name="t1">Zinta garraiatzailea</string>
+    <string name="t2">Iraulkia ( &lt; 80T )</string>
+    <string name="t3">Iraulkia ( > 80T )</string>
+    
+    <string name="ms1">Jumbo</string>
+    <string name="ms2">Urradura puntuala</string>
+    <string name="ms3">LHD</string>
+    <string name="ms4">Iraulkia</string>
+    <string name="ms5">Zinta garraiatzailea</string>
+    <string name="ms6">Zulatzailea (Laztabin luzeak)</string>
+    <string name="ms7">Zulatzailea (Haizemaileak)</string>
+    <string name="ms8">Ebakidura luzeko urratzailea</string>
+    <string name="ms9">Urratzaile jarraia</string>
+    
+    <string name="cam_pilares">Ganbera eta pilareak</string>
+    <string name="cam_almacen">Biltegi ganberak</string>
+    <string name="subniveles">Azpi-mailak</string>
+    <string name="corte_relleno">Ebaketa eta betetzea</string>
+    <string name="hund_subniveles">Azpi-mail hondorapenak</string>
+    <string name="hund_bloques">Bloke hondorapenak</string>
+    <string name="frente_largo">Fronte luzea</string>
+    <string name="gal_prep">Meazulorako prestakuntza</string>
+    <string name="relleno">Betegarria</string>
+    <string name="twitter">Twitter</string>
+    <string name="github">Github</string>
+    <string name="correo">Posta</string>
+	<string name="mag_rcs">MPa</string>
+	<string name="mag_reservas">urte</string>
+	<string name="mag_produccion">t/urte</string>
+	<string name="mag_densidad">g/cm3</string>
+	<string name="mag_distancia">m</string>
+	<string name="mag_pendiente">%</string>
+
+</resources>
