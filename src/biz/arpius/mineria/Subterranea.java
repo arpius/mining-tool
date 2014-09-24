@@ -1,7 +1,7 @@
 package biz.arpius.mineria;
 
 import calculos.CalculosSubterranea;
-import biz.arpius.miningtool.R;
+import biz.arpius.miningtool.app.R;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -30,12 +30,35 @@ public class Subterranea extends FragmentActivity implements OnCheckedChangeList
 	EditText edtTranspMineral = null;
 	Button btnCalcular = null;
 	String tipo = null;
+	
+	public static String MINERAL_IND, METAL;
+	public static String CAMARAS_PILARES, CAMARAS_ALMACEN, SUBNIVELES, CORTE_RELLENO, HUND_SUBNIV, HUND_BLOQ, FRENTE_LARGO;
+	public static String M1, M2, M3, M4, M5, M6, M7, M8, M9;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE); //para no mostrar la barra de título
 		setContentView(R.layout.activity_subterranea);
+		
+		MINERAL_IND = getString(R.string.mineral_ind);
+		METAL = getString(R.string.metal);
+		CAMARAS_PILARES = getString(R.string.cam_pilares);
+		CAMARAS_ALMACEN = getString(R.string.cam_almacen);
+		SUBNIVELES = getString(R.string.subniveles);
+		CORTE_RELLENO = getString(R.string.corte_relleno);
+		HUND_SUBNIV = getString(R.string.hund_subniveles);
+		HUND_BLOQ = getString(R.string.hund_bloques);
+		FRENTE_LARGO = getString(R.string.frente_largo);
+		M1 = getString(R.string.ms1);
+		M2 = getString(R.string.ms2);
+		M3 = getString(R.string.ms3);
+		M4 = getString(R.string.ms4);
+		M5 = getString(R.string.ms5);
+		M6 = getString(R.string.ms6);
+		M7 = getString(R.string.ms7);
+		M8 = getString(R.string.ms8);
+		M9 = getString(R.string.ms9);
 		
 		tituloSubte = (TextView) findViewById(R.id.txtTituloSubte);
 		rdgSubte = (RadioGroup) findViewById(R.id.rdg_subte);

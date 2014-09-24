@@ -1,19 +1,21 @@
 package calculos;
 
+import biz.arpius.mineria.CieloAbierto;
+
 public class Calculos {
 	
-	public static final String MINERAL_IND = "Mineral industrial";
-	public static final String METAL = "Metal";
-	public static final String ARIDO = "Árido";
-	public static final String M1 = "Perforadora";
-	public static final String M2 = "Excavadora hidráulica";
-	public static final String M3 = "Rotopala o dragalina";
-	public static final String M4 = "Excavadora de cables";
-	public static final String M5 = "Cargadora de ruedas";
-	public static final String M6 = "Bulldozer (Ripper)";
-	public static final String T1 = "Cinta transportadora";
-	public static final String T2 = "Volquete ( < 80T )";
-	public static final String T3 = "Volquete ( > 80T )";
+	public static final String MINERAL_IND = CieloAbierto.MINERAL_IND;
+	public static final String METAL = CieloAbierto.METAL;
+	public static final String ARIDO = CieloAbierto.ARIDO;
+	public static final String M1 = CieloAbierto.M1;
+	public static final String M2 = CieloAbierto.M2;
+	public static final String M3 = CieloAbierto.M3;
+	public static final String M4 = CieloAbierto.M4;
+	public static final String M5 = CieloAbierto.M5;
+	public static final String M6 = CieloAbierto.M6;
+	public static final String T1 = CieloAbierto.T1;
+	public static final String T2 = CieloAbierto.T2;
+	public static final String T3 = CieloAbierto.T3;
 	public static boolean esArido = false;
 	
 	public static String calcularArranque( int rcs, int volReservas, String tipo ) {

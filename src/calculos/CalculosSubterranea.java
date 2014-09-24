@@ -1,25 +1,27 @@
 package calculos;
 
+import biz.arpius.mineria.Subterranea;
+
 public class CalculosSubterranea {
 	
-	public static final String MINERAL_IND = "Mineral industrial";
-	public static final String METAL = "Metal";
-	public static final String CAMARAS_PILARES = "Cámaras y pilaresl";
-	public static final String CAMARAS_ALMACEN = "Cámaras almacén";
-	public static final String SUBNIVELES = "Subniveles";
-	public static final String CORTE_RELLENO = "Corte y relleno";
-	public static final String HUND_SUBNIV = "Hundimiento por subniveles";
-	public static final String HUND_BLOQ = "Hundimiento por bloques";
-	public static final String FRENTE_LARGO = "Frente largo";
-	public static final String M1 = "Jumbo";
-	public static final String M2 = "Rozadura puntual";
-	public static final String M3 = "LHD";
-	public static final String M4 = "Volquete";
-	public static final String M5 = "Cinta transportadora";
-	public static final String M6 = "Perforadora (Barrenos largos)";
-	public static final String M7 = "Perforadora (Abanicos)";
-	public static final String M8 = "Rozadora de tajo largo";
-	public static final String M9 = "Rozadora continua";
+	public static final String MINERAL_IND = Subterranea.MINERAL_IND;
+	public static final String METAL = Subterranea.METAL;
+	public static final String CAMARAS_PILARES = Subterranea.CAMARAS_PILARES;
+	public static final String CAMARAS_ALMACEN = Subterranea.CAMARAS_ALMACEN;
+	public static final String SUBNIVELES = Subterranea.SUBNIVELES;
+	public static final String CORTE_RELLENO = Subterranea.CORTE_RELLENO;
+	public static final String HUND_SUBNIV = Subterranea.HUND_SUBNIV;
+	public static final String HUND_BLOQ = Subterranea.HUND_BLOQ;
+	public static final String FRENTE_LARGO = Subterranea.FRENTE_LARGO;
+	public static final String M1 = Subterranea.M1;
+	public static final String M2 = Subterranea.M2;
+	public static final String M3 = Subterranea.M3;
+	public static final String M4 = Subterranea.M4;
+	public static final String M5 = Subterranea.M5;
+	public static final String M6 = Subterranea.M6;
+	public static final String M7 = Subterranea.M7;
+	public static final String M8 = Subterranea.M8;
+	public static final String M9 = Subterranea.M9;
 	
 	public static String calcularGaleriaPreparacion( int rcs ) {
 		

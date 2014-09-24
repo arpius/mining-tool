@@ -1,7 +1,7 @@
 package biz.arpius.mineria;
 
 import calculos.Calculos;
-import biz.arpius.miningtool.R;
+import biz.arpius.miningtool.app.R;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -32,11 +32,28 @@ public class CieloAbierto extends FragmentActivity implements OnCheckedChangeLis
 	EditText edtPendiente = null;
 	Button btnCalcular = null;
 	
+	public static String MINERAL_IND, METAL, ARIDO;
+	public static String M1, M2, M3, M4, M5, M6;
+	public static String T1, T2, T3;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE); //para no mostrar la barra de título
 		setContentView(R.layout.activity_cielo_abierto);
+		
+		MINERAL_IND = getString(R.string.mineral_ind);
+		METAL = getString(R.string.metal);
+		ARIDO = getString(R.string.arido);
+		M1 = getString(R.string.m1);
+		M2 = getString(R.string.m2);
+		M3 = getString(R.string.m3);
+		M4 = getString(R.string.m4);
+		M5 = getString(R.string.m5);
+		M6 = getString(R.string.m6);
+		T1 = getString(R.string.t1);
+		T2 = getString(R.string.t2);
+		T3 = getString(R.string.t3);
 		
 		tituloCA = (TextView) findViewById(R.id.txtTituloCA);
 		rdgCA = (RadioGroup) findViewById(R.id.rdg_ca);
