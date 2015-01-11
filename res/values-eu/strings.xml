@@ -36,14 +36,17 @@
     
     <string name="m1">Zulatzailea</string>
     <string name="m2">Hondeatzaile hidraulikoa</string>
-    <string name="m3">Rotopala edo dragalina</string>
+    <string name="m3">Rotopala</string>
     <string name="m4">Kable hondeatzailea</string>
     <string name="m5">Gurpil zamatzailea</string>
     <string name="m6">Bulldozer (Ripper)</string>
+    <string name="m7">Mototraila</string>
+    <string name="m8">Dragalina</string>
     
     <string name="t1">Zinta garraiatzailea</string>
-    <string name="t2">Iraulkia ( &lt; 80T )</string>
-    <string name="t3">Iraulkia ( > 80T )</string>
+    <string name="t2">Iraulki zurruna ( &lt; 80T )</string>
+    <string name="t3">Iraulki zurruna ( > 80T )</string>
+    <string name="t4">Iraulki artikulatua</string>
     
     <string name="ms1">Jumbo</string>
     <string name="ms2">Urradura puntuala</string>

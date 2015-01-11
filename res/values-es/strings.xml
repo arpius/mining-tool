@@ -36,14 +36,17 @@
     
     <string name="m1">Perforadora</string>
     <string name="m2">Excavadora hidráulica</string>
-    <string name="m3">Rotopala o dragalina</string>
+    <string name="m3">Rotopala</string>
     <string name="m4">Excavadora de cables</string>
     <string name="m5">Cargadora de ruedas</string>
     <string name="m6">Bulldozer (Ripper)</string>
+    <string name="m7">Mototrailla</string>
+    <string name="m8">Dragalina</string>
     
     <string name="t1">Cinta transportadora</string>
-    <string name="t2">Volquete ( &lt; 80T )</string>
-    <string name="t3">Volquete ( > 80T )</string>
+    <string name="t2">Volquete rígido ( &lt; 80T )</string>
+    <string name="t3">Volquete rígido ( > 80T )</string>
+    <string name="t4">Volquete articulado</string>
     
     <string name="ms1">Jumbo</string>
     <string name="ms2">Rozadura puntual</string>
